@@ -1,0 +1,229 @@
+#body {
+    background-color: #FFE6C9;
+    font-family: 'Nunito Sans';;
+}
+
+/*Main image of the webpage*/
+#FigmaImage {
+  position: absolute;
+  width: 600px;
+  height: 550px;
+  margin: 90px;
+  margin-left: 200px;
+  border-radius: 10px;
+  border: 5px solid white;
+  box-shadow: -8px 0px 8px #3d3d3d54;
+}
+
+
+
+#figmaIcon {
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
+#googleImg {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+/*Main content of the webpage*/
+.content {
+    float: right;
+    margin-right: 300px;
+    margin-top: 90px;
+    background-color: white;
+    width: 500px;
+    height: 560px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #3d3d3d83;
+}
+
+p {
+    font-size: 10px;
+    margin-right: 10px;
+    color: #525252;
+}
+
+#h1 {
+    font-size: 20px;
+    margin-left: 2px;
+    margin-top: 20px;
+    color: #525252;
+}
+
+#btnGoogle, #email, #password {
+    width: 250px;
+    height: 25px;
+    background-color: white;
+    color: #525252;
+    font-size: 10px;
+    border: 1px solid #c4c2c2;
+    border-radius: 5px;
+    margin-left: 55px;
+}
+
+#btnGoogle:hover {
+    cursor: pointer;
+}
+
+#orText {
+    color: #c4c2c2;
+    font-size: 9px;
+    margin-left: 60px;
+    
+}
+
+#passHead {
+    margin-right: 160px;
+}
+#emailHead {
+    margin-right: 180px;
+}
+
+#rememberMe {
+    color: #525252;
+    font-size: 9px;
+    margin-top: 10px;
+}
+
+#passForgot {
+    text-decoration: none;
+    font-size: 9px;
+    color: #7F265B;
+    margin-left: 80px;
+}
+
+#registerYet {
+    text-decoration: none;
+    font-size: 9px;
+}
+
+#createAcc {
+    text-decoration: none;
+    font-size: 9px;
+    color: #7F265B;
+}
+
+#btnLogin {
+    width: 258px;
+    height: 30px;
+    color: white;
+    background-color: #7F265B;
+    border: 1px solid #7F265B;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#btnLogin:hover {
+    cursor: pointer;
+}
+
+
+
+/*Making the webpage responcive*/
+
+@media (max-width: 500px) {
+    body {
+        background-image: url(img/figma_mobile.jpg);
+        background-repeat: no-repeat;
+        background-color: #FFE6C9;
+    }
+
+    .content {
+        margin-right: 0;
+        margin-left: 0;
+        background-color: rgba(255, 255, 255, 0.49);
+        border: 5px solid #7F265B;
+        width: 400px;
+        height: 550px;
+        margin-right: 3rem;
+    }
+
+    #FigmaImage {
+        display: none;
+    }
+
+    #btnGoogle, #email, #password, #btnLogin {
+        margin-right: 3rem;
+        border: 2px solid #7F265B
+    }
+
+    #figmaIcon {
+        display: none;
+    }
+
+    #h1 {
+        font-size: 30px;
+    }
+
+    #passHead, #emailHead {
+        font-size: 20px;
+        
+    }
+
+    #orText {
+        color: #525252;
+        font-size: 15px;
+    }
+
+    #rememberMe, #passForgot, p {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 1200px) {
+
+    body {
+        background-image: url(img/figma_fullscreen.jpg);
+        background-repeat: no-repeat;
+    }
+    .content {
+        margin-right: 0;
+        margin-left: 0;
+        background-color: rgba(255, 255, 255, 0.49);
+        border: 5px solid #7F265B;
+        width: 400px;
+        height: 550px;
+        margin-right: 3rem;
+    }
+
+    #FigmaImage {
+        display: none;
+    }
+
+    #btnGoogle, #email, #password, #btnLogin {
+        margin-right: 3rem;
+        border: 2px solid #7F265B
+    }
+
+    #figmaIcon {
+        display: none;
+    }
+
+    #h1 {
+        font-size: 30px;
+    }
+
+    #passHead, #emailHead {
+        font-size: 20px;
+        
+    }
+
+    #orText {
+        color: #525252;
+        font-size: 15px;
+    }
+
+    #rememberMe, #passForgot, p {
+        font-size: 15px;
+    }
+
+}
+
